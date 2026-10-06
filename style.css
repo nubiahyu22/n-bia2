@@ -1,0 +1,74 @@
+h1 {
+    color: #1fa70d;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.rainbow-word {
+    display: inline-block;
+    font-weight: bold;
+    background: linear-gradient(
+        90deg,
+        #ff4d4d,
+        #ff9f43,
+        #ffe66d,
+        #4cd964,
+        #4cc9f0,
+        #4361ee,
+        #9b5de5,
+        #f15bb5
+    );
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbowShift 3s linear infinite;
+}
+
+@keyframes rainbowShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #43e035;
+}
+
+div {
+    background-color: #d1f3d1;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color:#bfffb7;
+    border: 2px solid #43e035;
+    border-radius: 2%;
+    padding: 5px
+}
+
+body {
+    background-color: #feffef;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
